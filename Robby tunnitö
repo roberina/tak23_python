@@ -1,0 +1,83 @@
+<!DOCTYPE html>    - HTML
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div style = "position:relative; left:80px; top:2px; background-color:yellow;"></div>
+    <div class="basic">
+        <div class="box"></div>
+
+        <h1>Summary</h1>
+
+        <div class ="box-test">
+
+            <div class="box2"></div>
+
+            <div class="box3"></div>
+
+            <div class="box4"></div>
+
+            <div class="box5"></div>
+        </div>
+
+    </div> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    border-radius: 10%;
+    width: 50vw;
+    height: 100vh;
+    background-color: blue;
+}
+.box2{
+    width: 30%;
+    height: 100px;
+    background-color: red;
+}
+.box3{
+    width: 30%;
+    height: 100px;
+    background-color: pink;
+}
+.box4{
+    width: 30%;
+    height: 100px;
+    background-color: purple;
+}
+.box5{
+    width: 30%;
+    height: 100px;
+    background-color: blue;
+}
+.basic{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box-test {
+    height: 100px;
+    width: 100px;
+    color: black;
+}
