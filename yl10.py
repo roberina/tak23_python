@@ -1,16 +1,15 @@
-name = input("Sisestage oma nimi: ")
-print("Tere!", name)
-
-area = input("Sisestage oma elukoht: ")
-if "saaremaa" in area.lower():
-        print("Tervist saarlane!")
-else:
-     print("Kao seenele kusipää")
-
-age = int(input("Sisestage oma vanus: "))
+name = input("Sisesta oma nimi: ")
+print("Tere", name)
+location = input("Elukoht: ")
+if  "saaremaa" in location.lower():
+    print("See on hea koht kus elada! Oled vähemalt targem kui hiidlane ;)")
+if  "hiiumaa" in location.lower():
+    print("Mingi tross oled v?")
+age = input("Vanus: ")
+age = int(age)
 if age < 18:
-    print("Sa oled liiga noor, et autot juhtida")
+    print("Sa ei tohi sõita")
 elif age == 18:
-    print("Palju õnne täisealiseks saamise eest!")
+    print("Palju õnne täiskasvanuks saamise eest!")
 else:
-     print("Sa võid autot juhtida big boy :)")
+    print("Appi")
