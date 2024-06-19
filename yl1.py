@@ -1,5 +1,3 @@
-kroonid = 15.6466
-EEK = float(input("Sisestage kroonid: "))
-EUR = EEK / kroonid
-EUR = round(EUR, 2)
-print(f"{EEK} EEK on {EUR} EUR.")
+eek = input("Sisesta kroonid ") 
+eur = int(eek) / 15.6466
+print(round(eur))
